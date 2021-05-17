@@ -105,6 +105,14 @@
           "label": "Enforced-MSS"
         },
         {
+          "id": "authority.router.node.device-interface.network-interface.reverse-arp-mac-learning",
+          "label": "Use Packet Source MAC for Reverse Traffic when ARP is Unresolved"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.off-subnet-reverse-arp-mac-learning",
+          "label": "Use Packet Source MAC for Reverse Traffic for Off-Subnet Source IP"
+        },
+        {
           "id": "authority.router.node.device-interface.network-interface.prefix-delegation",
           "label": "Prefix Delegation"
         },
@@ -141,34 +149,50 @@
           "label": "DHCP Delayed Authentication Key"
         },
         {
+          "id": "authority.router.node.device-interface.network-interface.management",
+          "label": "Management Enabled"
+        },
+        {
           "id": "authority.router.node.device-interface.network-interface.management-vector.name",
-          "label": "Management vector name"
+          "label": "Management vector Name"
         },
         {
           "id": "authority.router.node.device-interface.network-interface.management-vector.priority",
-          "label": "Management vector priority"
+          "label": "Management vector Priority"
         }
       ]
     },
     {
-      "id": "network-interface.vrrp",
-      "title": "Network Interface VRRP Settings",
+      "id": "network-interface.tunnel",
+      "title": "Network Interface Tunnel Settings",
       "fields": [
         {
-          "id": "authority.router.node.device-interface.network-interface.vrrp.enabled",
-          "label": "Enabled"
+          "id": "authority.router.node.device-interface.network-interface.tunnel.source.source-type",
+          "label": "Source Type"
         },
         {
-          "id": "authority.router.node.device-interface.network-interface.vrrp.vrid",
-          "label": "Virtual Router ID"
+          "id": "authority.router.node.device-interface.network-interface.tunnel.source.address",
+          "label": "Source Address"
         },
         {
-          "id": "authority.router.node.device-interface.network-interface.vrrp.priority",
-          "label": "Priority"
+          "id": "authority.router.node.device-interface.network-interface.tunnel.source.network-interface",
+          "label": "Source From Network Interface"
         },
         {
-          "id": "authority.router.node.device-interface.network-interface.vrrp.advertisement-interval",
-          "label": "Advertisement Interval"
+          "id": "authority.router.node.device-interface.network-interface.tunnel.destination",
+          "label": "Destination"
+        }
+      ]
+    },
+    {
+      "id": "network-interface.ethernet-over-svr",
+      "title": "Ethernet-Over-SVR",
+      "type": "container-list-section",
+      "fields": [
+        {
+          "link": "ethernet-over-svr",
+          "id": "authority.router.node.device-interface.network-interface.ethernet-over-svr",
+          "label": "Ethernet-Over-SVR"
         }
       ]
     },
@@ -230,6 +254,23 @@
           "link": "network-interface-host-service",
           "id": "authority.router.node.device-interface.network-interface.host-service",
           "label": "Host Services"
+        }
+      ]
+    },
+    {
+      "id": "network-interface.off-subnet-arp-prefix",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.off-subnet-arp-prefix",
+          "label": "Off-Subnet ARP Prefixes",
+          "columnLabels": [
+            {
+              "id": "prefix",
+              "label": "Prefix"
+            }
+          ]
         }
       ]
     },

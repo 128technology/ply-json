@@ -23,7 +23,7 @@
   "author": "128 Technology",
   "license": "MIT",
   "dependencies": {
-    "@128technology/yinz": "^5.0.0-alpha.6",
+    "@128technology/yinz-json": "^6.0.0-alpha.0",
     "@types/lodash": "^4.14.121",
     "lodash": "^4.17.15"
   },
@@ -32,7 +32,6 @@
     "@types/mocha": "^2.2.41",
     "@types/node": "^12.7.8",
     "chai": "^3.5.0",
-    "libxmljs2": "^0.26.7",
     "mocha": "^6.2.0",
     "prettier": "^2.0.5",
     "ts-node": "^8.4.1",

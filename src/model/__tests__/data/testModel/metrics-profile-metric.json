@@ -1,0 +1,20 @@
+{
+  "id": "metrics-profile-metric",
+  "title": "Metric",
+  "sections": [
+    {
+      "id": "metrics-profile-metric.settings",
+      "title": "Metric",
+      "fields": [
+        {
+          "id": "authority.metrics-profile.metric.id",
+          "label": "Metric ID"
+        },
+        {
+          "id": "authority.metrics-profile.metric.description",
+          "label": "Description"
+        }
+      ]
+    }
+  ]
+}

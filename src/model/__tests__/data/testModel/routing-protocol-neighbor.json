@@ -27,6 +27,10 @@
           "label": "Shutdown Connection To Neighbor"
         },
         {
+          "id": "authority.router.routing.routing-protocol.neighbor.negotiate-capabilities",
+          "label": "BGP Capability Negotiation"
+        },
+        {
           "id": "authority.router.routing.routing-protocol.neighbor.auth-password",
           "label": "BGP Neighbor Password"
         },

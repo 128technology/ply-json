@@ -39,6 +39,23 @@
           "label": "Host Services"
         }
       ]
+    },
+    {
+      "id": "addresses.in-subnet-arp-prefix",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.in-subnet-arp-prefix",
+          "label": "In-Subnet ARP Prefixes",
+          "columnLabels": [
+            {
+               "id": "prefix",
+               "label": "Prefix"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

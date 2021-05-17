@@ -25,6 +25,10 @@
         {
           "id": "authority.router.node.device-interface.network-interface.address.host-service.enabled",
           "label": "Service Status"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.echo-client-id",
+          "label": "Echo Client ID"
         }
       ]
     },

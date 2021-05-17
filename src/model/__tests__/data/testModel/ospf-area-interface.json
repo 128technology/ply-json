@@ -23,6 +23,10 @@
           "label": "Cost"
         },
         {
+          "id": "authority.router.routing.ospf.area.interface.network-type",
+          "label": "Network Type"
+        },
+        {
           "id": "authority.router.routing.ospf.area.interface.priority",
           "label": "Router Priority"
         },
@@ -33,6 +37,26 @@
         {
           "id": "authority.router.routing.ospf.area.interface.dead-interval",
           "label": "Dead Interval"
+        },
+        {
+          "id": "authority.router.routing.ospf.area.interface.authentication-type",
+          "label": "Authentication Type"
+        },
+        {
+          "id": "authority.router.routing.ospf.area.interface.password",
+          "label": "Simple Authentication Password"
+        }
+      ]
+    },
+    {
+      "id": "ospf-area-interface.message-digest-key",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "ospf-area-interface-message-digest-key",
+          "id": "authority.router.routing.ospf.area.interface.message-digest-key",
+          "label": "MD5 HMAC Authentication Message Digest Keys"
         }
       ]
     }

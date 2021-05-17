@@ -52,6 +52,23 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ipfix-collector.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.ipfix-collector.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

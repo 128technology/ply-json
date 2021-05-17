@@ -1,0 +1,36 @@
+{
+  "title": "Ethernet Over SVR",
+  "id": "ethernet-over-svr",
+  "sections": [
+    {
+      "id": "ethernet-over-svr.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.ethernet-over-svr.name",
+          "label": "Name"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.ethernet-over-svr.enabled",
+          "label": "Enabled"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.ethernet-over-svr.encapsulate-all-traffic",
+          "label": "Encapsulate All Traffic"
+        }
+      ]
+    },
+    {
+      "id": "ethernet-over-svr.peer",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "ethernet-over-svr-peer",
+          "id": "authority.router.node.device-interface.network-interface.ethernet-over-svr.peer",
+          "label": "Peer Info"
+        }
+      ]
+    }
+  ]
+}

@@ -46,8 +46,8 @@
           "label": "Asset Validation Enabled"
         },
         {
-          "id": "authority.router.node.usage-reporter-enabled",
-          "label": "Enable Usage Reporter"
+          "id": "authority.router.node.forwarding-core-mode",
+          "label": "Forwarding Core Mode"
         },
         {
           "id": "authority.router.node.forwarding-core-count",
@@ -90,12 +90,12 @@
           "label": "Inter Conductor and Router SSH Keepalive Max Attempts for server"
         },
         {
-          "id": "authority.router.node.clean-before-install",
-          "label": "Clean Before 128T Install"
+          "id": "authority.router.node.ssh-keepalive.asset-inter-conductor-router-server.interval",
+          "label": "Asset Connection Inter Conductor and Router SSH Keepalive Interval for server"
         },
         {
-          "id": "authority.router.node.clean-after-failed-install",
-          "label": "Clean After Failed 128T Install"
+          "id": "authority.router.node.ssh-keepalive.asset-inter-conductor-router-server.max-attempts",
+          "label": "Asset Connection Inter Conductor and Router SSH Keepalive Max Attempts for server"
         },
         {
           "id": "authority.router.node.reachability-detection.arp-refresh-interval",
@@ -112,6 +112,10 @@
         {
           "id": "authority.router.node.reachability-detection.expired-refresh-count",
           "label": "Expired ARP Detection Count"
+        },
+        {
+          "id": "authority.router.node.reachability-detection.arp-cache-timeout",
+          "label": "ARP Cache Timeout"
         }
       ]
     },

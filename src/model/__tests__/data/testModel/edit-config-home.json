@@ -52,6 +52,30 @@
       ]
     },
     {
+      "id": "home.step-repos",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "step-repo",
+          "id": "authority.step-repo",
+          "label": "STEP Repositories"
+        }
+      ]
+    },
+    {
+      "id": "home.districts",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "district",
+          "id": "authority.district",
+          "label": "Districts"
+        }
+      ]
+    },
+    {
       "id": "home.services",
       "title": null,
       "type": "list-section",
@@ -96,6 +120,18 @@
           "link": "traffic-profile",
           "id": "authority.traffic-profile",
           "label": "Traffic Profiles"
+        }
+      ]
+    },
+    {
+      "id": "home.performance-monitoring-profile",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "performance-monitoring-profile",
+          "id": "authority.performance-monitoring-profile",
+          "label": "Performance Monitoring Profiles"
         }
       ]
     },

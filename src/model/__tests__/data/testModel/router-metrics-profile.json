@@ -1,0 +1,20 @@
+{
+  "id": "router-metrics-profile",
+  "title": "Profile",
+  "sections": [
+    {
+      "id": "router-metrics-profile.settings",
+      "title": "Settings",
+      "fields": [
+        {
+          "id": "authority.router.system.metrics.profile.name",
+          "label": "Name"
+        },
+        {
+          "id": "authority.router.system.metrics.profile.retention",
+          "label": "Retention"
+        }
+      ]
+    }
+  ]
+}

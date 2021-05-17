@@ -1,4 +1,4 @@
-import { Container } from '@128technology/yinz';
+import { Container } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import { Field } from './mixins';

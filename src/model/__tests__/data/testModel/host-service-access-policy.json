@@ -3,7 +3,7 @@
   "id": "host-service-access-policy",
   "sections": [
     {
-      "id": "access-policy.main",
+      "id": "host-service-access-policy.main",
       "title": "Basic Information",
       "fields": [
         {

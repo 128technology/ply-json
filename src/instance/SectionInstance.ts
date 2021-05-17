@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { DataModelInstance, Path, Instance, LeafListChildInstance, Authorized } from '@128technology/yinz';
+import { DataModelInstance, Path, Instance, LeafListChildInstance, Authorized } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import ContainingListDoesNotExist from './errors/ContainingListDoesNotExistError';

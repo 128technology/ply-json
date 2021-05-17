@@ -1,0 +1,137 @@
+{
+  "title": "VRF BGP",
+  "id": "vrf-routing-protocol",
+  "sections": [
+    {
+      "id": "vrf-routing-protocol.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.type",
+          "label": "Type"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.bgp-settings",
+      "title": "BGP Settings",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.router-id",
+          "label": "Router ID"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.cluster-id",
+          "label": "Cluster ID"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.route-reflector-allow-outbound-policy",
+          "label": "Route Reflector Allow Outbound Policy"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.local-as",
+          "label": "Local Autonomous System (AS) Number"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.bgp-neighbors",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-routing-protocol-neighbor",
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor",
+          "label": "BGP Neighbors"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.bgp-address-family",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-routing-protocol-address-family",
+          "id": "authority.router.routing.vrf.routing-protocol.address-family",
+          "label": "BGP Address Families"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.bgp-redistribute",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-routing-protocol-redistribute",
+          "id": "authority.router.routing.vrf.routing-protocol.redistribute",
+          "label": "BGP Route Redistribution"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.timers",
+      "title": "Default Protocol Timers",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.timers.hold-time",
+          "label": "Hold Time Interval"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.timers.keepalive-interval",
+          "label": "Keep Alive Interval"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.confederation",
+      "title": "Confederation",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.confederation.identifier",
+          "label": "Confederation Identifier AS Number"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.member-as",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.confederation.member-as",
+          "label": "Member Autonomous System (AS) List",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "AS Number"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol.route-selection-options",
+      "title": "Route Selection Options",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.route-selection-options.always-compare-med",
+          "label": "Always Compare Multi-Exit Discriminator (MED)"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.route-selection-options.ignore-as-path-length",
+          "label": "Ignore AS Path Length"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.route-selection-options.external-compare-router-id",
+          "label": "Use Router ID In Path Determination"
+        }
+      ]
+    }
+  ]
+}

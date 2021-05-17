@@ -1,6 +1,5 @@
 import { expect } from 'chai';
-import { Model, Choice, DataModel } from '@128technology/yinz';
-import * as xml from 'libxmljs2';
+import { Model, Choice, DataModel } from '@128technology/yinz-json';
 
 import Field from '../Field';
 import applyMixins from '../../../util/applyMixins';
@@ -39,28 +38,71 @@ describe('Field Mixin', () => {
 
   applyMixins(Test, [Field]);
 
-  const modelXML = `
-    <yin:container name="root" xmlns:yin="urn:ietf:params:xml:ns:yang:yin:1" xmlns:t128="http://128technology.com/t128" module-prefix="t128" module-name="t128">
-        <yin:choice name="foo">
-            <yin:case name="notNested">
-                <yin:leaf name="bar">
-                    <yin:type name="string"/>
-                </yin:leaf>
-            </yin:case>
-            <yin:case name="nested">
-                <yin:container name="wrapper">
-                    <yin:leaf name="bar">
-                        <yin:type name="string"/>
-                    </yin:leaf>
-                </yin:container>
-            </yin:case>
-        </yin:choice>
-    </yin:container>
-  `;
+  const modelElement = {
+    keyword: 'container',
+    name: 'root',
+    namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+    'module-prefix': 'test',
+    nsmap: { test: 'http://foo.bar' },
+    children: [
+      {
+        keyword: 'choice',
+        namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+        name: 'foo',
+        children: [
+          {
+            keyword: 'case',
+            namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+            name: 'notNested',
+            children: [
+              {
+                keyword: 'leaf',
+                namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+                name: 'bar',
+                children: [
+                  {
+                    keyword: 'type',
+                    namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+                    name: 'string'
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            keyword: 'case',
+            name: 'nested',
+            namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+            children: [
+              {
+                keyword: 'container',
+                namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+                name: 'wrapper',
+                children: [
+                  {
+                    keyword: 'leaf',
+                    namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+                    name: 'bar',
+                    children: [
+                      {
+                        keyword: 'type',
+                        namespace: 'urn:ietf:params:xml:ns:yang:yin:1',
+                        name: 'string'
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  };
 
   const dataModel = new DataModel({
-    modelElement: xml.parseXmlString(modelXML).root()!,
-    rootPath: '//yin:container[@name="root"]'
+    modelElement,
+    getRoot: doc => doc
   });
 
   it('adds a nested choice', () => {

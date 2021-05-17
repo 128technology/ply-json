@@ -1,0 +1,20 @@
+{
+  "title": "Network To Advertise Into BGP",
+  "id": "vrf-network",
+  "sections": [
+    {
+      "id": "vrf-network.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.address-family.network.network-address",
+          "label": "Network Address"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.address-family.network.policy",
+          "label": "Policy"
+        }
+      ]
+    }
+  ]
+}

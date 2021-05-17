@@ -65,6 +65,18 @@
         {
           "id": "authority.router.peer.bfd.link-test-length",
           "label": "Link Test Length"
+        },
+        {
+          "id": "authority.router.peer.bfd.dynamic-damping",
+          "label": "Link Flap Dynamic Damping"
+        },
+        {
+          "id": "authority.router.peer.bfd.hold-down-time",
+          "label": "Link Flap Hold Down Time"
+        },
+        {
+          "id": "authority.router.peer.bfd.maximum-hold-down-time",
+          "label": "Link Flap Maximum Hold Down Time"
         }
       ]
     },

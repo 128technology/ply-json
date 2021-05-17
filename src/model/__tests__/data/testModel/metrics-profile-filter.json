@@ -1,0 +1,33 @@
+{
+  "id": "metrics-profile-filter",
+  "title": "Filter",
+  "sections": [
+    {
+      "id": "metrics-profile-filter.settings",
+      "title": "Settings",
+      "fields": [
+        {
+          "id": "authority.metrics-profile.filter.parameter",
+          "label": "Parameter"
+        }
+      ]
+    },
+    {
+      "id": "metrics-profile-filter.values",
+      "title": "Filter",
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.metrics-profile.filter.value",
+          "label": "Values",
+          "columnLabels": [
+            {
+              "id": "values",
+              "label": "Value"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

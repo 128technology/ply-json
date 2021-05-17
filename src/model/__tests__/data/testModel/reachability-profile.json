@@ -1,0 +1,28 @@
+{
+  "title": "Reachability Profile",
+  "id": "reachability-profile",
+  "sections": [
+    {
+      "id": "reachability-profile.main",
+      "title": "Reachability Profile Information",
+      "fields": [
+        {
+          "id": "authority.router.reachability-profile.name",
+          "label": "Name"
+        }
+      ]
+    },
+    {
+      "id": "reachability-profile.protocol",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "reachability-profile-protocol",
+          "id": "authority.router.reachability-profile.protocol",
+          "label": "Protocol"
+        }
+      ]
+    }
+  ]
+}

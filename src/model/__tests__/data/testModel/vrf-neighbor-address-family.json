@@ -1,0 +1,62 @@
+{
+  "title": "BGP Neighbor Address Family",
+  "id": "vrf-neighbor-address-family",
+  "sections": [
+    {
+      "id": "vrf-neighbor-address-family.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.afi-safi",
+          "label": "Address Family"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.send-default-route",
+          "label": "Send Default Route"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.next-hop-self",
+          "label": "Set This Router As Next Hop"
+        }
+      ]
+    },
+    {
+      "id": "vrf-neighbor-address-family.prefix-limit",
+      "title": "Prefix Limit Settings",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.prefix-limit.max-prefixes",
+          "label": "Maximum Number Of Prefixes"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.prefix-limit.shutdown-threshold-pct",
+          "label": "Shutdown Threshold Percentage"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.prefix-limit.restart-timer",
+          "label": "Restart Interval"
+        }
+      ]
+    },
+    {
+      "id": "vrf-neighbor-address-family.route-reflector",
+      "title": "Route Reflector Options",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.route-reflector.client",
+          "label": "Configure Neighbor As Route Reflector Client"
+        }
+      ]
+    },
+    {
+      "id": "vrf-neighbor-address-family.as-path-options",
+      "title": "AS Path Options",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.as-path-options.allow-own-as",
+          "label": "Local AS Path Occurrences Before Rejection"
+        }
+      ]
+    }
+  ]
+}

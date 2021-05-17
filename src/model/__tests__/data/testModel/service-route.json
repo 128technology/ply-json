@@ -51,6 +51,10 @@
         {
           "id": "authority.router.service-route.routing-stack",
           "label": "To Routing Agent"
+        },
+        {
+          "id": "authority.router.service-route.bridge-name",
+          "label": "To EoSVR Bridge"
         }
       ]
     },
@@ -92,6 +96,48 @@
           "link": "next-hop",
           "id": "authority.router.service-route.next-hop",
           "label": "Next Hops"
+        }
+      ]
+    },
+    {
+      "id": "service-route.reachability-detection",
+      "title": "Reachability Detection Settings",
+      "fields": [
+        {
+          "id": "authority.router.service-route.reachability-detection.enabled",
+          "label": "Reachability Detection Enabled"
+        },
+        {
+          "id": "authority.router.service-route.reachability-detection.enforcement",
+          "label": "Reachability Detection Enforcement"
+        },
+        {
+          "id": "authority.router.service-route.reachability-detection.detection-window",
+          "label": "Enforcement Detection Window"
+        },
+        {
+          "id": "authority.router.service-route.reachability-detection.hold-down",
+          "label": "Enforcement Hold-down Time"
+        },
+        {
+          "id": "authority.router.service-route.reachability-detection.reachability-profile",
+          "label": "Reachability Detection Enforcement Profile"
+        },
+        {
+          "id": "authority.router.service-route.reachability-detection.probe-type",
+          "label": "Enforcement Probe Type"
+        }
+      ]
+    },
+    {
+      "id": "service-route.reachability-detection-probe",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "reachability-detection-probe",
+          "id": "authority.router.service-route.reachability-detection.probe",
+          "label": "Reachability Detection Enforcement Probes"
         }
       ]
     }

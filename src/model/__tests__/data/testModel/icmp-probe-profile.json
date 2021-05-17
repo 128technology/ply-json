@@ -1,0 +1,63 @@
+{
+  "title": "Icmp Probe Profile",
+  "id": "icmp-probe-profile",
+  "sections": [
+    {
+      "id": "icmp-probe-profile.main",
+      "title": "Icmp Probe Profile Information",
+      "fields": [
+        {
+          "id": "authority.router.icmp-probe-profile.name",
+          "label": "Name"
+        },
+        {
+          "id": "authority.router.icmp-probe-profile.probe-interval",
+          "label": "Probe Interval"
+        },
+        {
+          "id": "authority.router.icmp-probe-profile.number-of-attempts",
+          "label": "Number of Attempts"
+        },
+        {
+          "id": "authority.router.icmp-probe-profile.probe-duration",
+          "label": "Probe Duration"
+        }
+      ]
+    },
+    {
+      "id": "icmp-probe-profile.probe-addresses",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.icmp-probe-profile.probe-address",
+          "label": "Probe Addresses",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Probe Address"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icmp-probe-profile.sla-metrics",
+      "title": "Icmp Probe Sla Metrics",
+      "fields": [
+        {
+          "id": "authority.router.icmp-probe-profile.sla-metrics.max-loss",
+          "label": "Max Loss"
+        },
+        {
+          "id": "authority.router.icmp-probe-profile.sla-metrics.latency.max",
+          "label": "Max Latency"
+        },
+        {
+          "id": "authority.router.icmp-probe-profile.sla-metrics.latency.mean",
+          "label": "Mean Latency"
+        }
+      ]
+    }
+  ]
+}

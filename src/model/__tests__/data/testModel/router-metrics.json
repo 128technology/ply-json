@@ -1,0 +1,72 @@
+{
+  "id": "router-metrics",
+  "title": "Metrics",
+  "sections": [
+    {
+      "id": "router-metrics.profile",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "router-metrics-profile",
+          "id": "authority.router.system.metrics.profile",
+          "label": "Metrics Profiles"
+        }
+      ]
+    },
+    {
+      "id": "router-metrics.retention.short",
+      "title": "Short Retention",
+      "fields": [
+        {
+          "id": "authority.router.system.metrics.retention.short.enabled",
+          "label": "Enabled"
+        },
+        {
+          "id": "authority.router.system.metrics.retention.short.interval",
+          "label": "Interval"
+        },
+        {
+          "id": "authority.router.system.metrics.retention.short.duration",
+          "label": "Duration"
+        }
+      ]
+    },
+    {
+      "id": "router-metrics.retention.intermediate",
+      "title": "Intermediate Retention",
+      "fields": [
+        {
+          "id": "authority.router.system.metrics.retention.intermediate.enabled",
+          "label": "Enabled"
+        },
+        {
+          "id": "authority.router.system.metrics.retention.intermediate.interval",
+          "label": "Interval"
+        },
+        {
+          "id": "authority.router.system.metrics.retention.intermediate.duration",
+          "label": "Duration"
+        }
+      ]
+    },
+    {
+      "id": "router-metrics.retention.long",
+      "title": "Long Retention",
+      "fields": [
+        {
+          "id": "authority.router.system.metrics.retention.long.enabled",
+          "label": "Enabled"
+        },
+        {
+          "id": "authority.router.system.metrics.retention.long.interval",
+          "label": "Interval"
+        },
+        {
+          "id": "authority.router.system.metrics.retention.long.duration",
+          "label": "Duration"
+        }
+      ]
+    }
+  ]
+}

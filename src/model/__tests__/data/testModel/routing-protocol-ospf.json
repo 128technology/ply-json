@@ -29,6 +29,18 @@
         {
           "id": "authority.router.routing.ospf.advertise-default.metric-type",
           "label": "Default Route Metric Type"
+        },
+        {
+          "id": "authority.router.routing.ospf.distance.intra-area",
+          "label": "Intra-area Route Distance"
+        },
+        {
+          "id": "authority.router.routing.ospf.distance.inter-area",
+          "label": "Inter-area Route Distance"
+        },
+        {
+          "id": "authority.router.routing.ospf.distance.external",
+          "label": "External Route Distance"
         }
       ]
     },

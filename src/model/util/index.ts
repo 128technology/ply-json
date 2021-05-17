@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { DataModel, List, Choice, Leaf, LeafList, Container } from '@128technology/yinz';
+import { DataModel, List, Choice, Leaf, LeafList, Container } from '@128technology/yinz-json';
 
 import { LeafField, ListField, ChoiceField, LeafListField, ContainerField, Section } from '../';
 

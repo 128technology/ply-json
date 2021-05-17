@@ -37,6 +37,7 @@ describe('List Field Model', () => {
         'maintenance-mode',
         'inter-node-security',
         'reverse-flow-enforcement',
+        'max-inter-node-way-points',
         'dhcp-server-generated-address-pool'
       ],
       link: 'router',

@@ -1,0 +1,41 @@
+{
+  "title": "Performance Monitoring Profile",
+  "id": "performance-monitoring-profile",
+  "sections": [
+    {
+      "id": "performance-monitoring-profile.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.performance-monitoring-profile.name",
+          "label": "Name"
+        },
+        {
+          "id": "authority.performance-monitoring-profile.marking-count",
+          "label": "Marking Count"
+        },
+        {
+          "id": "authority.performance-monitoring-profile.interval-duration",
+          "label": "Interval Duration"
+        }
+      ]
+    },
+    {
+      "id": "performance-monitoring-profile.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.performance-monitoring-profile.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

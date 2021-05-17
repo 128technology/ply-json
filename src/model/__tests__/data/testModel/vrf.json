@@ -1,0 +1,69 @@
+{
+  "title": "VRF",
+  "id": "vrf",
+  "sections": [
+    {
+      "id": "vrf.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.name",
+          "label": "Name"
+        }
+      ]
+    },
+    {
+      "id": "vrf.tenants",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.tenant-name",
+          "label": "VRF Tenants",
+          "columnLabels": [
+            {
+              "id": "tenant",
+              "label": "Tenant"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vrf.interfaces",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-routing-interface",
+          "id": "authority.router.routing.vrf.interface",
+          "label": "VRF Routing Interfaces"
+        }
+      ]
+    },
+    {
+      "id": "vrf.protocols",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-routing-protocol",
+          "id": "authority.router.routing.vrf.routing-protocol",
+          "label": "VRF BGP"
+        }
+      ]
+    },
+    {
+      "id": "vrf.static-routes",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-static-route",
+          "id": "authority.router.routing.vrf.static-route",
+          "label": "VRF Static Routes"
+        }
+      ]
+    }
+  ]
+}

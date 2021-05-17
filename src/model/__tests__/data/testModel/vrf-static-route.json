@@ -1,0 +1,57 @@
+{
+  "title": "VRF Static Route",
+  "id": "vrf-static-route",
+  "sections": [
+    {
+      "id": "vrf-static-route.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.static-route.destination-prefix",
+          "label": "Destination Address"
+        },
+        {
+          "id": "authority.router.routing.vrf.static-route.distance",
+          "label": "Administrative Distance"
+        },
+        {
+          "id": "authority.router.routing.vrf.static-route.description",
+          "label": "Description"
+        },
+        {
+          "id": "authority.router.routing.vrf.static-route.next-hop-choice",
+          "label": "Next Hop Choice"
+        }
+      ]
+    },
+    {
+      "id": "vrf-static-route.next-hop",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.static-route.next-hop",
+          "label": "VRF Static Route Next Hop List",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Next Hop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vrf-static-route.next-hop-interfaces",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-static-route-next-hop-interfaces",
+          "id": "authority.router.routing.vrf.static-route.next-hop-interface",
+          "label": "VRF Next Hop Interfaces"
+        }
+      ]
+    }
+  ]
+}

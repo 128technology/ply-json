@@ -1,0 +1,34 @@
+{
+  "title": "Probe",
+  "id": "reachability-detection-probe",
+  "sections": [
+    {
+      "id": "reachability-detection-probe.main",
+      "title": "Reachability Detection Enforcement Probe",
+      "fields": [
+        {
+          "id": "authority.router.service-route.reachability-detection.probe.name",
+          "label": "Name"
+        }
+      ]
+    },
+    {
+      "id": "reachability-detection-probe.probe-type",
+      "title": "Probe Type",
+      "fields": [
+        {
+          "id": "authority.router.service-route.reachability-detection.probe.probe-type",
+          "label": "Type"
+        },
+        {
+          "id": "authority.router.service-route.reachability-detection.probe.enabled",
+          "label": "Enabled"
+        },
+        {
+          "id": "authority.router.service-route.reachability-detection.probe.icmp-probe-profile",
+          "label": "ICMP Probe Profile"
+        }
+      ]
+    }
+  ]
+}

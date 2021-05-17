@@ -33,6 +33,14 @@
         {
           "id": "authority.router.node.device-interface.network-interface.neighborhood.session-optimization.mode",
           "label": "Session Optimization Mode"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.max-way-points",
+          "label": "Maximum Way Points"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.path-metrics-rolling-avg-interval",
+          "label": "Path Metrics Rolling Average Interval"
         }
       ]
     },
@@ -85,13 +93,77 @@
       ]
     },
     {
-      "id": "neighborhood.bfd",
-      "title": "BFD",
+      "id": "neighborhood.nat-keep-alive",
+      "title": "NAT Keep-Alive Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.nat-keep-alive.mode",
+          "label": "NAT Keep Alive Mode"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.nat-keep-alive.tcp-inactivity-timeout",
+          "label": "TCP Inactivity Timeout"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.nat-keep-alive.udp-inactivity-timeout",
+          "label": "UDP Inactivity Timeout"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood.settings",
+      "title": "Neighborhood Settings",
+      "type": "container-list-section",
       "fields": [
         {
           "id": "authority.router.node.device-interface.network-interface.neighborhood.bfd",
           "label": "BFD Settings",
           "link": "neighborhood-bfd"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.step-peer-path-advertisement",
+          "label": "STEP Peer Path Advertisement Settings",
+          "link": "neighborhood-step-peer-path-advertisement"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood.performance-monitoring",
+      "title": "Performance Monitoring Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.performance-monitoring.enabled",
+          "label": "Performance Monitoring Enabled"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.performance-monitoring.profile",
+          "label": "Performance Monitoring Profile"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood.post-encryption-padding",
+      "title": "Post Encryption Padding Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.post-encryption-padding.mode",
+          "label": "Post Encryption Padding Mode"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood.traffic-engineering",
+      "title": "Traffic Engineering Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.traffic-engineering.upload",
+          "label": "Upload Traffic Engineering Settings",
+          "link": "neighborhood-upload-traffic-engineering"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.traffic-engineering.download",
+          "label": "Download Traffic Engineering Settings",
+          "link": "neighborhood-download-traffic-engineering"
         }
       ]
     }

@@ -1,0 +1,41 @@
+{
+  "title": "STEP Repository",
+  "id": "step-repo",
+  "sections": [
+    {
+      "id": "step-repos.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.step-repo.address",
+          "label": "Address"
+        },
+        {
+          "id": "authority.step-repo.description",
+          "label": "Description"
+        },
+        {
+          "id": "authority.step-repo.priority",
+          "label": "Priority"
+        }
+      ]
+    },
+    {
+      "id": "step-repo.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.step-repo.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

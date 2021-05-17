@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { Types, Type, Leaf, LeafList } from '@128technology/yinz';
+import { Types, Type, Leaf, LeafList } from '@128technology/yinz-json';
 import { IEnumeration } from '../../util/types';
 
 const { EnumerationType, IdentityRefType, DerivedType, BooleanType } = Types;

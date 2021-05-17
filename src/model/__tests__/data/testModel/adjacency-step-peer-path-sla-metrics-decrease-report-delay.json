@@ -1,0 +1,20 @@
+{
+  "title": "SLA Metrics Decrease Report Delay",
+  "id": "adjacency-step-peer-path-sla-metrics-decrease-report-delay",
+  "sections": [
+    {
+      "id": "adjacency-step-peer-path-sla-metrics-decrease-report-delay.main",
+      "title": "Decrease To Delay Mapping",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.step-peer-path-advertisement.sla-metrics.decrease-report-delay.percentage",
+          "label": "Decrease Percentage"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.step-peer-path-advertisement.sla-metrics.decrease-report-delay.delay",
+          "label": "Report Delay"
+        }
+      ]
+    }
+  ]
+}

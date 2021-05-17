@@ -21,6 +21,10 @@
         {
           "id": "authority.session-type.timeout",
           "label": "Session Timeout"
+        },
+        {
+          "id": "authority.session-type.nat-keep-alive",
+          "label": "NAT Keep-Alive"
         }
       ]
     },
@@ -33,6 +37,23 @@
           "link": "session-type-transport",
           "id": "authority.session-type.transport",
           "label": "Transport"
+        }
+      ]
+    },
+    {
+      "id": "session-type.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.session-type.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
         }
       ]
     }

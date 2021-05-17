@@ -15,6 +15,10 @@
           "label": "Type"
         },
         {
+          "id": "authority.router.routing.ospf.area.authentication-type",
+          "label": "Authentication Type"
+        },
+        {
           "id": "authority.router.routing.ospf.area.summary-advertisement",
           "label": "Summary Advertisement"
         },
@@ -45,6 +49,18 @@
           "link": "ospf-area-interface",
           "id": "authority.router.routing.ospf.area.interface",
           "label": "Interfaces"
+        }
+      ]
+    },
+    {
+      "id": "ospf-area.routing-interface",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "ospf-area-routing-interface",
+          "id": "authority.router.routing.ospf.area.routing-interface",
+          "label": "Routing Interfaces"
         }
       ]
     }

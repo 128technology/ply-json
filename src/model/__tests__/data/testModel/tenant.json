@@ -39,6 +39,23 @@
           "label": "Tenant Members"
         }
       ]
+    },
+    {
+      "id": "tenant.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.tenant.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

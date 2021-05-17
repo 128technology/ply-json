@@ -1,0 +1,26 @@
+{
+  "title": "Protocol",
+  "id": "reachability-profile-protocol",
+  "sections": [
+    {
+      "id": "reachability-profile-protocol.main",
+      "title": "Reachability Profile Protocol",
+      "fields": [
+        {
+          "id": "authority.router.reachability-profile.protocol.protocol-type"
+        }
+      ]
+    },
+    {
+      "id": "reachability-profile-protocol.traffic-class",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "reachability-profile-traffic-class",
+          "id": "authority.router.reachability-profile.protocol.traffic-class"
+        }
+      ]
+    }
+  ]
+}

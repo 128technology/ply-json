@@ -54,7 +54,8 @@ describe('Choice Field Model', () => {
         'next-peer-service-route',
         'use-learned-routes',
         'routing-stack',
-        'host'
+        'host',
+        'eosvr-bridge'
       ],
       id: 'authority.router.service-route.type',
       kind: 'choice',

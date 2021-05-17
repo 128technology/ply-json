@@ -1,0 +1,20 @@
+{
+  "title": "Resource",
+  "id": "access-management-resource",
+  "sections": [
+    {
+      "id": "authority.access-management.role.resource.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.access-management.role.resource.id",
+          "label": "ID"
+        },
+        {
+          "id": "authority.access-management.role.resource.generated",
+          "label": "Generated"
+        }
+      ]
+    }
+  ]
+}

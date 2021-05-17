@@ -81,20 +81,54 @@
       ]
     },
     {
-      "id": "router-system.audit",
-      "title": "Audit Settings",
+      "id": "router-system.audit.general",
+      "title": "General Audit Settings",
+      "fields": [
+        {
+          "id": "authority.router.system.audit.retention",
+          "label": "Retention"
+        }
+      ]
+    },
+    {
+      "id": "router-system.audit.traffic",
+      "title": "Traffic Audit Settings",
       "fields": [
         {
           "id": "authority.router.system.audit.traffic.enabled",
-          "label": "Traffic Event Auditing"
+          "label": "Auditing"
         },
+        {
+          "id": "authority.router.system.audit.traffic.persist",
+          "label": "Persistence"
+        }
+      ]
+    },
+    {
+      "id": "router-system.audit.administration",
+      "title": "Admin Audit Settings",
+      "fields": [
         {
           "id": "authority.router.system.audit.administration.enabled",
-          "label": "Administration Event Auditing"
+          "label": "Auditing"
         },
         {
+          "id": "authority.router.system.audit.administration.persist",
+          "label": "Persistence"
+        }
+      ]
+    },
+    {
+      "id": "router-system.audit.system",
+      "title": "System Audit Settings",
+      "fields": [
+        {
           "id": "authority.router.system.audit.system.enabled",
-          "label": "System Event Auditing"
+          "label": "Auditing"
+        },
+        {
+          "id": "authority.router.system.audit.system.persist",
+          "label": "Persistence"
         }
       ]
     },
@@ -177,6 +211,16 @@
       ]
     },
     {
+      "id": "router.asset-connection-resiliency",
+      "title": "Asset Connection Resiliency",
+      "fields": [
+        {
+          "id": "authority.router.system.asset-connection-resiliency.enabled",
+          "label": "Asset Connection Resiliency State"
+        }
+      ]
+    },
+    {
       "id": "router.local-login",
       "title": "Local Login",
       "fields": [
@@ -195,6 +239,10 @@
       "title": "Software Update Settings",
       "fields": [
         {
+          "id": "authority.router.system.software-update.repository.offline-mode",
+          "label": "Software Repository Offline Mode"
+        },
+        {
           "id": "authority.router.system.software-update.repository.source-type",
           "label": "Software Repository Source Type"
         },
@@ -205,6 +253,18 @@
         {
           "id": "authority.router.system.software-update.max-bandwidth",
           "label": "Software Update Max Bandwidth"
+        }
+      ]
+    },
+    {
+      "id": "router.system.metrics",
+      "title": "Metrics",
+      "type": "container-list-section",
+      "fields": [
+        {
+          "link": "router-metrics",
+          "id": "authority.router.system.metrics",
+          "label": "Metrics"
         }
       ]
     }
