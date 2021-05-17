@@ -19,12 +19,24 @@
           "label": "Dynamic Hostname Format"
         },
         {
-          "id": "authority.auto-install",
-          "label": "Automatically Install After Asset ID Association"
-        },
-        {
           "id": "authority.remote-login.enabled",
           "label": "Remote Login State"
+        },
+        {
+          "id": "authority.asset-connection-resiliency.enabled",
+          "label": "Asset Connection Resiliency State"
+        },
+        {
+          "id": "authority.access-management.token.expiration",
+          "label": "Authentication Token Expiration"
+        },
+        {
+          "id": "authority.access-management.user-activity.retention-count",
+          "label": "Maximum Count of User Activity Events"
+        },
+        {
+          "id": "authority.access-management.user-activity.retention-time",
+          "label": "Maximum Time of User Activity Events"
         }
       ]
     },
@@ -86,6 +98,82 @@
           "link": "authority-ipfix-collector",
           "id": "authority.ipfix-collector",
           "label": "IPFIX Collection Settings"
+        }
+      ]
+    },
+    {
+      "id": "authority.resource-group",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "authority-resource-group",
+          "id": "authority.resource-group",
+          "label": "Resource Groups"
+        }
+      ]
+    },
+    {
+      "id": "authority.access-management.role",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "access-management-role",
+          "id": "authority.access-management.role",
+          "label": "Access Management Roles"
+        }
+      ]
+    },
+    {
+      "id": "authority.metrics-profile",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "metrics-profile",
+          "id": "authority.metrics-profile",
+          "label": "Metrics Profiles"
+        }
+      ]
+    },
+    {
+      "id": "authority.web-messages",
+      "title": "Web Messages",
+      "fields": [
+        {
+          "id": "authority.web-messages.login-message",
+          "label": "Login Page Message"
+        },
+        {
+          "id": "authority.web-messages.welcome-message",
+          "label": "Dashboard Message"
+        }
+      ]
+    },
+    {
+      "id": "authority.web-theme",
+      "title": "Theme",
+      "fields": [
+        {
+          "id": "authority.web-theme.primary-color",
+          "label": "Primary Color",
+          "customComponent": "CustomColorField"
+        },
+        {
+          "id": "authority.web-theme.secondary-color",
+          "label": "Secondary Color",
+          "customComponent": "CustomColorField"
+        },
+        {
+          "id": "authority.web-theme.logo",
+          "label": "Logo",
+          "customComponent": "CustomIconField"
+        },
+        {
+          "id": "authority.web-theme.tab-icon",
+          "label": "Tab Icon",
+          "customComponent": "CustomIconField"
         }
       ]
     }

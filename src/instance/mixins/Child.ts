@@ -1,4 +1,4 @@
-import { DataModelInstance } from '@128technology/yinz';
+import { DataModelInstance } from '@128technology/yinz-json';
 
 import { PresentationModelInstance } from '../';
 

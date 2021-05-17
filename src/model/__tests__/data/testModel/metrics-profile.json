@@ -1,0 +1,40 @@
+{
+  "id": "metrics-profile",
+  "title": "Metrics Profile",
+  "sections": [
+    {
+      "id": "metrics-profile.settings",
+      "title": "Settings",
+      "fields": [
+        {
+          "id": "authority.metrics-profile.name",
+          "label": "Name"
+        }
+      ]
+    },
+    {
+      "id": "metrics-profile.metrics",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "metrics-profile-metric",
+          "id": "authority.metrics-profile.metric",
+          "label": "Metrics"
+        }
+      ]
+    },
+    {
+      "id": "metrics-profile.filters",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "metrics-profile-filter",
+          "id": "authority.metrics-profile.filter",
+          "label": "Filters"
+        }
+      ]
+    }
+  ]
+}

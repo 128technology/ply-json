@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { LeafListInstance, Path, LeafList, Types, Authorized } from '@128technology/yinz';
+import { LeafListInstance, Path, LeafList, Types, Authorized } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import { LeafListField } from '../model';

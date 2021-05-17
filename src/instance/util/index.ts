@@ -9,7 +9,7 @@ import {
   DataModel,
   List,
   Choice
-} from '@128technology/yinz';
+} from '@128technology/yinz-json';
 
 import { Field, LeafField, ListField, ChoiceField, LeafListField, ContainerField } from '../../model';
 import {

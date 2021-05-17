@@ -1,0 +1,50 @@
+{
+  "title": "District",
+  "id": "district",
+  "sections": [
+    {
+      "id": "district.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.district.name",
+          "label": "Name"
+        }
+      ]
+    },
+    {
+      "id": "district.neighborhoods",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.district.neighborhood",
+          "label": "District Neighborhoods",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "District Neighborhood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "district.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.district.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

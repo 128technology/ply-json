@@ -1,0 +1,36 @@
+{
+  "title": "Rate Limit Policy",
+  "id": "rate-limit-policy",
+  "sections": [
+    {
+      "id": "rate-limit-policy.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.rate-limit-policy.name",
+          "label": "Rate Limit Policy Name"
+        },
+        {
+          "id": "authority.router.rate-limit-policy.mode",
+          "label": "Mode"
+        },
+        {
+          "id": "authority.router.rate-limit-policy.upload-settings.max-rate",
+          "label": "Maximum Upload Rate"
+        },
+        {
+          "id": "authority.router.rate-limit-policy.upload-settings.max-burst",
+          "label": "Maximum Upload Burst"
+        },
+        {
+          "id": "authority.router.rate-limit-policy.download-settings.max-rate",
+          "label": "Maximum Download Rate"
+        },
+        {
+          "id": "authority.router.rate-limit-policy.download-settings.max-burst",
+          "label": "Maximum Download Burst"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Ethernet Over SVR Peer",
+  "id": "ethernet-over-svr-peer",
+  "sections": [
+    {
+      "id": "ethernet-over-svr-peer.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.ethernet-over-svr.peer.ip-address",
+          "label": "IP Address"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.ethernet-over-svr.peer.peer",
+          "label": "Name"
+        }
+      ]
+    }
+  ]
+}

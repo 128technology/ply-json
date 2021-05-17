@@ -45,6 +45,18 @@
         {
           "id": "authority.router.node.device-interface.network-interface.adjacency.bfd.link-test-length",
           "label": "Link Test Length"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.bfd.dynamic-damping",
+          "label": "Link Flap Dynamic Damping"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.bfd.hold-down-time",
+          "label": "Link Flap Hold Down Time"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.bfd.maximum-hold-down-time",
+          "label": "Link Flap Maximum Hold Down Time"
         }
       ]
     },

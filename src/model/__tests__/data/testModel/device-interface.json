@@ -31,9 +31,21 @@
           "control": true
         },
         {
+          "id": "authority.router.node.device-interface.identifier",
+          "label": "Identifier"
+        },
+        {
           "id": "authority.router.node.device-interface.pci-address",
           "label": "PCI Address",
           "customComponent": "PciAddressField"
+        },
+        {
+          "id": "authority.router.node.device-interface.vmbus-uuid",
+          "label": "VMBUS UUID"
+        },
+        {
+          "id": "authority.router.node.device-interface.interface-name",
+          "label": "OS Interface Name"
         },
         {
           "id": "authority.router.node.device-interface.link-settings",
@@ -84,8 +96,16 @@
           "label": "LTE Authentication Protocol"
         },
         {
+          "id": "authority.router.node.device-interface.lte.carrier-image",
+          "label": "LTE Carrier Image"
+        },
+        {
           "id": "authority.router.node.device-interface.strip-vlan",
           "label": "VLAN Stripping"
+        },
+        {
+          "id": "authority.router.node.device-interface.sriov-vlan-filter",
+          "label": "SR-IOV VLAN Filtering"
         },
         {
           "id": "authority.router.node.device-interface.promiscuous-mode",
@@ -159,6 +179,20 @@
               "label": "Filter String"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "device-interface.q-in-q",
+      "title": "Q-in-Q",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.q-in-q.outer-vlan",
+          "label": "Q-in-Q Outer VLAN Tag"
+        },
+        {
+          "id": "authority.router.node.device-interface.q-in-q.outer-ethertype",
+          "label": "Q-in-Q Outer Ethertype"
         }
       ]
     },

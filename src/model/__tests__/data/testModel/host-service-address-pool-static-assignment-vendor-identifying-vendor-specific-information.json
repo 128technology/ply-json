@@ -1,0 +1,49 @@
+{
+  "title": "Vendor-Identifying Vendor-Specific Information DHCP Options",
+  "id": "host-service-address-pool-static-assignment-vendor-identifying-vendor-specific-information",
+  "sections": [
+    {
+      "id": "host-service-address-pool-static-assignment-vendor-identifying-vendor-specific-information.main",
+      "title": "Vendor-Identifying Vendor-Specific Information DHCP Options",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-identifying-vendor-specific-information.code",
+          "label": "DHCP Option Code"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-identifying-vendor-specific-information.description",
+          "label": "DHCP Option Description"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-identifying-vendor-specific-information.enterprise-number",
+          "label": "DHCP Option Enterprise Number"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-identifying-vendor-specific-information.encoded-type",
+          "label": "DHCP Option Encoded Type"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-identifying-vendor-specific-information.quantity",
+          "label": "DHCP Option Order"
+        }
+      ]
+    },
+    {
+      "id": "host-service-address-pool-static-assignment-vendor-identifying-vendor-specific-information.value",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-identifying-vendor-specific-information.value",
+          "label": "DHCP Option Value",
+          "columnLabels": [
+            {
+              "id": "value",
+              "label": "Value"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

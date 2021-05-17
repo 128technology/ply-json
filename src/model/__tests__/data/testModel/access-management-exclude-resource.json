@@ -1,0 +1,16 @@
+{
+  "title": "Exclude Resource",
+  "id": "access-management-exclude-resource",
+  "sections": [
+    {
+      "id": "authority.access-management.role.exclude-resource.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.access-management.role.exclude-resource.id",
+          "label": "ID"
+        }
+      ]
+    }
+  ]
+}

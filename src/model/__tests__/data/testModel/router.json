@@ -37,6 +37,18 @@
       ]
     },
     {
+      "id": "router.nodes",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "node",
+          "id": "authority.router.node",
+          "label": "Nodes"
+        }
+      ]
+    },
+    {
       "id": "router.router-group",
       "title": null,
       "type": "list-table",
@@ -118,14 +130,43 @@
       ]
     },
     {
-      "id": "router.nodes",
+      "id": "router.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "router.reachabilityprofiles",
       "title": null,
       "type": "list-section",
       "fields": [
         {
-          "link": "node",
-          "id": "authority.router.node",
-          "label": "Nodes"
+          "link": "reachability-profile",
+          "id": "authority.router.reachability-profile",
+          "label": "Reachability Profile"
+        }
+      ]
+    },
+    {
+      "id": "router.icmpprobeprofiles",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "icmp-probe-profile",
+          "id": "authority.router.icmp-probe-profile",
+          "label": "ICMP Probe Profile"
         }
       ]
     },
@@ -195,6 +236,18 @@
       ]
     },
     {
+      "id": "router.district",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "router-district",
+          "id": "authority.router.district-settings",
+          "label": "District Settings"
+        }
+      ]
+    },
+    {
       "id": "router.udp-transform",
       "title": "UDP Transform Settings",
       "fields": [
@@ -227,6 +280,16 @@
         {
           "id": "authority.router.path-mtu-discovery.interval",
           "label": "Path MTU Discovery Interval"
+        }
+      ]
+    },
+    {
+      "id": "router.max-inter-node-way-points",
+      "title": "Maximum Inter Node Way Points Settings",
+      "fields": [
+        {
+          "id": "authority.router.max-inter-node-way-points",
+          "label": "Maximum Inter Node Way Points"
         }
       ]
     },
@@ -288,16 +351,42 @@
           ]
         }
       ]
-    },
-    {
-      "id": "router.dhcp-server-generated-address-pool",
-      "title": "DHCP Server Generated Address Pool",
-      "fields": [
-        {
-          "id": "authority.router.dhcp-server-generated-address-pool",
-          "label": "DHCP Server Generated Address Pool"
+    }, {
+        "id": "router.dhcp-server-generated-address-pool",
+        "title": "DHCP Server Generated Address Pool",
+        "fields": [{
+            "id": "authority.router.dhcp-server-generated-address-pool",
+            "label": "DHCP Server Generated Address Pool"
         }
       ]
+    }, {
+        "id": "router.dns-config",
+        "title": null,
+        "type": "list-section",
+        "fields": [{
+            "link": "router-dns-config",
+            "id": "authority.router.dns-config",
+            "label": "DNS Config"
+        }]
+    },{
+      "id": "router.static-hostname-mapping",
+      "title": null,
+      "type": "list-section",
+      "fields": [{
+          "link": "static-hostname-mapping",
+          "id": "authority.router.static-hostname-mapping.static-entry",
+          "label": "Static Hostname Mapping"
+        }]
+    },
+    {
+      "id": "router.rate-limit-policy",
+      "title": null,
+      "type": "list-section",
+      "fields": [{
+          "link": "rate-limit-policy",
+          "id": "authority.router.rate-limit-policy",
+          "label": "Rate Limit Policy"
+        }]
     }
   ]
 }

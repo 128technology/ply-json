@@ -25,6 +25,14 @@
           "label": "Router ID"
         },
         {
+          "id": "authority.router.routing.routing-protocol.cluster-id",
+          "label": "Cluster ID"
+        },
+        {
+          "id": "authority.router.routing.routing-protocol.route-reflector-allow-outbound-policy",
+          "label": "Route Reflector Allow Outbound Policy"
+        },
+        {
           "id": "authority.router.routing.routing-protocol.local-as",
           "label": "Local Autonomous System (AS) Number"
         }

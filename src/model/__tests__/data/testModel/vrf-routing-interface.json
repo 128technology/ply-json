@@ -1,0 +1,24 @@
+{
+  "title": "VRF Routing Interface",
+  "id": "vrf-routing-interface",
+  "sections": [
+    {
+      "id": "vrf-routing-interface.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.interface.name",
+          "label": "Name"
+        },
+        {
+          "id": "authority.router.routing.vrf.interface.ip-address",
+          "label": "IP Address"
+        },
+        {
+          "id": "authority.router.routing.vrf.interface.enabled",
+          "label": "Enabled"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { ContainerInstance, Path } from '@128technology/yinz';
+import { ContainerInstance, Path } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import { SectionInstance, ContainerPlugin } from './';

@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { Instance, Path } from '@128technology/yinz';
+import { Instance, Path } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import { ChoiceField } from '../model';

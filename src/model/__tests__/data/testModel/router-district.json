@@ -1,0 +1,34 @@
+{
+    "title": "District Settings",
+    "id": "router-district",
+    "sections": [
+      {
+        "id": "router-district.main",
+        "title": "Basic Information",
+        "fields": [
+          {
+            "id": "authority.router.district-settings.district-name",
+            "label": "District Name"
+          }
+        ]
+      },
+      {
+        "id": "authority.router.district-settings.step-peer-path-sla-metrics-advertisement",
+        "title": "Peer Path SLA Metrics Update",
+        "fields": [
+          {
+            "id": "authority.router.district-settings.step-peer-path-sla-metrics-advertisement.update-rate-limit",
+            "label": "SLA Metrics Update Rate Limit"
+          },
+          {
+            "id": "authority.router.district-settings.step-peer-path-sla-metrics-advertisement.update-burst-size",
+            "label": "SLA Metrics Update Burst Size"
+          },
+          {
+            "id": "authority.router.district-settings.step-peer-path-sla-metrics-advertisement.minimum-update-interval",
+            "label": "SLA Metrics Minimum Update Interval"
+          }
+        ]
+      }
+    ]
+  }

@@ -67,6 +67,23 @@
           "label": "Adaptive Encryption"
         }
       ]
+    },
+    {
+      "id": "security.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.security.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

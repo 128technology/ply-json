@@ -1,0 +1,20 @@
+{
+  "title": "VRF Static Route Next Hop Interfaces",
+  "id": "vrf-static-route-next-hop-interfaces",
+  "sections": [
+    {
+      "id": "vrf-static-route-next-hop-interfaces.main",
+      "title": "VRF Next Hop Interfaces",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.static-route.next-hop-interface.node",
+          "label": "Node Name"
+        },
+        {
+          "id": "authority.router.routing.vrf.static-route.next-hop-interface.interface",
+          "label": "Network Interface Name"
+        }
+      ]
+    }
+  ]
+}

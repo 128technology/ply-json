@@ -45,6 +45,23 @@
           ]
         }
       ]
+    },
+    {
+      "id": "authority.service.applies-to.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.service.applies-to.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "resource-group",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

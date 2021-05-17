@@ -23,8 +23,24 @@
           "label": "Transport State Enforcement"
         },
         {
+          "id": "authority.service-policy.ingress-source-nat",
+          "label": "Ingress Source Nat"
+        },
+        {
           "id": "authority.service-policy.generated",
           "label": "Auto-generated"
+        }
+      ]
+    },
+    {
+      "id": "authority.service-policy.applies-to",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "service-policy-applies-to",
+          "id": "authority.service-policy.applies-to",
+          "label": "Service-Policy Applies To"
         }
       ]
     },
@@ -51,6 +67,10 @@
         {
           "id": "authority.service-policy.peer-path-resiliency",
           "label": "Peer Path Resiliency"
+        },
+        {
+          "id": "authority.service-policy.best-path-criteria",
+          "label": "Best Path Selection Criteria"
         }
       ]
     },

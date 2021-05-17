@@ -53,6 +53,16 @@
           "label": "Packet Replication"
         }
       ]
+    },
+    {
+      "id": "service-route-policy.include-parent-routes",
+      "title": "Service Route Inheritance",
+      "fields": [
+        {
+          "id": "authority.router.service-route-policy.include-parent-routes",
+          "label": "Route Inheritance"
+        }
+      ]
     }
   ]
 }

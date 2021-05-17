@@ -148,6 +148,30 @@
           "label": "Custom Options"
         }
       ]
+    },
+    {
+      "id": "host-service-static-assignment.vendor-specific-information",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "host-service-address-pool-static-assignment-vendor-specific-information",
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-specific-information",
+          "label": "Vendor-Specific Information Options"
+        }
+      ]
+    },
+    {
+      "id": "host-service-static-assignment.vendor-identifying-vendor-specific-information",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "host-service-address-pool-static-assignment-vendor-identifying-vendor-specific-information",
+          "id": "authority.router.node.device-interface.network-interface.address.host-service.address-pool.static-assignment.vendor-identifying-vendor-specific-information",
+          "label": "Vendor-Identifying Vendor-Specific Information Options"
+        }
+      ]
     }
   ]
 }

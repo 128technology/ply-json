@@ -1,0 +1,20 @@
+{
+  "title": "OSPF Area Interface Message Digest Key",
+  "id": "ospf-area-interface-message-digest-key",
+  "sections": [
+    {
+      "id": "ospf-area-interface-message-digest-key.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.ospf.area.interface.message-digest-key.id",
+          "label": "Key Identifier"
+        },
+        {
+          "id": "authority.router.routing.ospf.area.interface.message-digest-key.key",
+          "label": "Secret Key"
+        }
+      ]
+    }
+  ]
+}

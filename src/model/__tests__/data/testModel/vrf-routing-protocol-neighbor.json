@@ -1,0 +1,124 @@
+{
+  "title": "VRF Routing Protocol Neighbor",
+  "id": "vrf-routing-protocol-neighbor",
+  "sections": [
+    {
+      "id": "vrf-routing-protocol-neighbor.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.neighbor-address",
+          "label": "BGP Neighbor Address"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.description",
+          "label": "Description"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.neighbor-as",
+          "label": "Neighbor AS Number"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.local-as",
+          "label": "Local AS Number"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.shutdown",
+          "label": "Shutdown Connection To Neighbor"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.negotiate-capabilities",
+          "label": "BGP Capability Negotiation"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.auth-password",
+          "label": "BGP Neighbor Password"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.neighbor-policy.inbound-policy",
+          "label": "Inbound Policy"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.neighbor-policy.outbound-policy",
+          "label": "Outbound Policy"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol-neighbor.timers",
+      "title": "BGP Neighbor Timers",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.timers.hold-time",
+          "label": "Hold Time Interval"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.timers.keepalive-interval",
+          "label": "Keep Alive Interval"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.timers.connect-retry",
+          "label": "Connect Retry Interval"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.timers.minimum-advertisement-interval",
+          "label": "Minimum Advertisement Interval"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol-neighbor.transport",
+      "title": "BGP Transport Settings",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.passive-mode",
+          "label": "Enable Passive Mode"
+        }
+      ]
+    },
+    {
+      "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address",
+      "title": "Local Address",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address.source",
+          "label": "Source"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address.node",
+          "label": "Node"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address.interface",
+          "label": "Interface"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address.routing-interface",
+          "label": "Routing Interface"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol-neighbor.multihop",
+      "title": "BGP Multihop Settings",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.multihop.ttl",
+          "label": "Time-to-live Value"
+        }
+      ]
+    },
+    {
+      "id": "vrf-routing-protocol-neighbor.address-family",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf-neighbor-address-family",
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family",
+          "label": "Address Families"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Traffic Class",
+  "id": "reachability-profile-traffic-class",
+  "sections": [
+    {
+      "id": "reachability-profile-traffic-class.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.reachability-profile.protocol.traffic-class.traffic-class-id",
+          "label": "Traffic Class Id"
+        },
+        {
+          "id": "authority.router.reachability-profile.protocol.traffic-class.enabled",
+          "label": "Enabled"
+        },
+        {
+          "id": "authority.router.reachability-profile.protocol.traffic-class.acceptable-error-threshold",
+          "label": "Acceptable Error Threshold"
+        }
+      ]
+    },
+    {
+      "id": "authority.router.reachability-profile.protocol.traffic-class.time-to-establishment",
+      "title": null,
+      "fields": [
+        {
+          "id": "authority.router.reachability-profile.protocol.traffic-class.time-to-establishment.enabled",
+          "label": "Enabled"
+        },
+        {
+          "id": "authority.router.reachability-profile.protocol.traffic-class.time-to-establishment.max",
+          "label": "Max"
+        },
+        {
+          "id": "authority.router.reachability-profile.protocol.traffic-class.time-to-establishment.mean",
+          "label": "Mean"
+        }
+      ]
+    }
+  ]
+}

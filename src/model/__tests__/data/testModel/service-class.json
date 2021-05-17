@@ -29,12 +29,22 @@
       ]
     },
     {
+      "id": "service-class.aggregate-rate-limit-policy",
+      "title": "Aggregate Rate Limiting",
+      "fields": [
+        {
+          "id": "authority.service-class.aggregate-rate-limit-policy",
+          "label": "Aggregate Rate Limit Policy"
+        }
+      ]
+    },
+    {
       "id": "service-class.ratelimit",
-      "title": "Rate Limiting",
+      "title": "Flow Rate Limiting",
       "fields": [
         {
           "id": "authority.service-class.rate-limit",
-          "label": "Enable Rate Limiting"
+          "label": "Enable Flow Rate Limiting"
         },
         {
           "id": "authority.service-class.max-flow-rate",
@@ -43,6 +53,23 @@
         {
           "id": "authority.service-class.max-flow-burst",
           "label": "Maximum Flow Burst"
+        }
+      ]
+    },
+    {
+      "id": "service-class.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.service-class.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
         }
       ]
     }

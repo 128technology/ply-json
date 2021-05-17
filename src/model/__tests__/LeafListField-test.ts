@@ -13,7 +13,7 @@ describe('Leaf List Field Model', () => {
           label: 'Group Name'
         }
       ],
-      deprecated: false,
+      deprecated: true,
       description: 'An identifier that associates this router with an administrative group.',
       id: 'authority.router.administrative-group',
       kind: 'leaf-list',
@@ -44,7 +44,15 @@ describe('Leaf List Field Model', () => {
       description: 'Application learning modes.',
       enumerations: [
         { name: 'module', description: 'Learn application via modules.' },
-        { name: 'tls', description: 'Learn application via TLS certificate parsing.' }
+        { name: 'tls', description: 'Learn application via TLS server name parsing.' },
+        {
+          name: 'http',
+          description: 'Learn application via HTTP host name parsing.'
+        },
+        {
+          name: 'all',
+          description: 'Learn application via any available techniques.'
+        }
       ],
       id: 'authority.router.application-identification.mode',
       kind: 'leaf-list',

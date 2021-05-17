@@ -1,0 +1,78 @@
+{
+  "title": "Access Management Roles",
+  "id": "access-management-role",
+  "sections": [
+    {
+      "id": "authority.access-management.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.access-management.role.name",
+          "label": "Name"
+        },
+        {
+          "id": "authority.access-management.role.description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "id": "authority.access-management.role.capability",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.access-management.role.capability",
+          "label": "Capabilities",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Capability"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authority.access-management.role.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.access-management.role.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authority.access-management.role.resource",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "access-management-resource",
+          "id": "authority.access-management.role.resource",
+          "label": "Resources"
+        }
+      ]
+    },
+    {
+      "id": "authority.access-management.role.exclude-resource",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "access-management-exclude-resource",
+          "id": "authority.access-management.role.exclude-resource",
+          "label": "Exclude Resources"
+        }
+      ]
+    }
+  ]
+}

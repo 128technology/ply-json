@@ -1,0 +1,20 @@
+{
+  "title": "Resource Group",
+  "id": "authority-resource-group",
+  "sections": [
+    {
+      "id": "authority.resource-group.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.resource-group.name",
+          "label": "Name"
+        },
+        {
+          "id": "authority.resource-group.description",
+          "label": "Description"
+        }
+      ]
+    }
+  ]
+}

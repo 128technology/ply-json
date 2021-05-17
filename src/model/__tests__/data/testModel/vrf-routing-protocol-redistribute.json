@@ -1,0 +1,20 @@
+{
+  "title": "VRF Routing Protocol Redistribute",
+  "id": "vrf-routing-protocol-redistribute",
+  "sections": [
+    {
+      "id": "vrf-routing-protocol-redistribute.main",
+      "title": "Route Redistribution",
+      "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.redistribute.protocol",
+          "label": "Protocol Redistributed Into BGP"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.redistribute.policy",
+          "label": "Policy Applied To Redistributed Protocol Routes"
+        }
+      ]
+    }
+  ]
+}

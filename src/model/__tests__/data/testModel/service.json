@@ -57,6 +57,10 @@
         {
           "id": "authority.service.access-policy-generated",
           "label": "Access-Policy Auto-generated"
+        },
+        {
+          "id": "authority.service.generate-categories",
+          "label": "Generate Application Identification Categories"
         }
       ]
     },
@@ -108,11 +112,45 @@
       "fields": [
         {
           "id": "authority.service.application-name",
-          "label": "Application Identification",
+          "label": "Application Identification Name",
           "columnLabels": [
             {
               "id": "name",
               "label": "Application Name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service.domain-names",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.service.domain-name",
+          "label": "Domain Name",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Domain Name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "service.domain-name-categories",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.service.domain-name-category",
+          "label": "Domain Name Category",
+          "columnLabels": [
+            {
+              "id": "category",
+              "label": "Domain Name Category"
             }
           ]
         }

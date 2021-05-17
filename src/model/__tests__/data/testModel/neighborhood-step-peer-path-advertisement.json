@@ -1,0 +1,58 @@
+{
+  "title": "Neighborhood STEP Peer Path Advertisement Settings",
+  "id": "neighborhood-step-peer-path-advertisement",
+  "sections": [
+    {
+      "id": "neighborhood-step-peer-path-advertisement.sla-metrics-wma",
+      "title": "Weighted Moving Average",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.step-peer-path-advertisement.sla-metrics.moving-average-sample-size",
+          "label": "SLA Metrics Moving Average Sample Size"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood-step-peer-path-advertisement.sla-metrics-significance-threshold",
+      "title": "SLA Metrics Significance Threshold",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.step-peer-path-advertisement.sla-metrics.significance-threshold.min-loss",
+          "label": "Loss Threshold"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.step-peer-path-advertisement.sla-metrics.significance-threshold.min-latency",
+          "label": "Latency Threshold"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.step-peer-path-advertisement.sla-metrics.significance-threshold.min-jitter",
+          "label": "Jitter Threshold"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood-step-peer-path-advertisement.sla-metrics-increase-report-delay",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "neighborhood-step-peer-path-sla-metrics-increase-report-delay",
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.step-peer-path-advertisement.sla-metrics.increase-report-delay",
+          "label": "SLA Metrics Increase Report Delay"
+        }
+      ]
+    },
+    {
+      "id": "neighborhood-step-peer-path-advertisement.sla-metrics-decrease-report-delay",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "neighborhood-step-peer-path-sla-metrics-decrease-report-delay",
+          "id": "authority.router.node.device-interface.network-interface.neighborhood.step-peer-path-advertisement.sla-metrics.decrease-report-delay",
+          "label": "SLA Metrics Decrease Report Delay"
+        }
+      ]
+    }
+  ]
+}

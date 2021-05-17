@@ -1,4 +1,4 @@
-import { DataModelInstance, Authorized } from '@128technology/yinz';
+import { DataModelInstance, Authorized } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import { IParams } from './InstanceTypes';

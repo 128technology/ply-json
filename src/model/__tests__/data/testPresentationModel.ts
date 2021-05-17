@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { DataModel } from '@128technology/yinz';
+import { DataModel } from '@128technology/yinz-json';
 
 import dataModel from './testDataModel';
 import { PresentationModel } from '../../';

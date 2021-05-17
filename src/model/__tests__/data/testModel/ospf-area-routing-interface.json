@@ -1,0 +1,20 @@
+{
+  "title": "OSPF Area Routing Interface",
+  "id": "ospf-area-routing-interface",
+  "sections": [
+    {
+      "id": "ospf-area-routing-interface.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.routing.ospf.area.routing-interface.routing-interface",
+          "label": "Routing Interface"
+        },
+        {
+          "id": "authority.router.routing.ospf.area.routing-interface.cost",
+          "label": "Cost"
+        }
+      ]
+    }
+  ]
+}

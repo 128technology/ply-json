@@ -25,6 +25,23 @@
           "label": "Authority-wide Routing Policies"
         }
       ]
+    },
+    {
+      "id": "authority-routing.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.routing.resource-group",
+          "label": "Resource Groups",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

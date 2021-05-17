@@ -1,4 +1,4 @@
-import { DataModel, Model, Container } from '@128technology/yinz';
+import { DataModel, Model, Container } from '@128technology/yinz-json';
 
 import { Page, Field } from './';
 import { IErrorReporter, IValidateOptions } from '../validate/ErrorReporter';

@@ -63,6 +63,18 @@
           "label": "Static Routes"
         }
       ]
+    },
+    {
+      "id": "routing.vrfs",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "vrf",
+          "id": "authority.router.routing.vrf",
+          "label": "Routing VRFs"
+        }
+      ]
     }
   ]
 }

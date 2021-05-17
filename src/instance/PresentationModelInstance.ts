@@ -1,4 +1,4 @@
-import { DataModelInstance, Authorized } from '@128technology/yinz';
+import { DataModelInstance, Authorized } from '@128technology/yinz-json';
 
 import { IParams } from './InstanceTypes';
 import {

@@ -3,7 +3,7 @@
   "id": "host-service-address-pool-static-assignment-custom",
   "sections": [
     {
-      "id": "access-policy.main",
+      "id": "host-service-address-pool-static-assignment-custom.main",
       "title": "Custom DHCP Options",
       "fields": [
         {

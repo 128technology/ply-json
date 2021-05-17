@@ -1,0 +1,33 @@
+{
+  "title": "Router DNS Config",
+  "id": "router-dns-config",
+  "sections": [
+    {
+      "id": "dns-config.main",
+      "title": "DNS Config",
+      "fields": [
+        {
+          "id": "authority.router.dns-config.mode",
+          "label": "Mode"
+        }
+      ]
+    },
+    {
+      "id": "dns-config.address",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.dns-config.address",
+          "label": "DNS Server Address",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Address"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

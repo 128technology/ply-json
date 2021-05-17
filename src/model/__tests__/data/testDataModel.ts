@@ -1,14 +1,13 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import * as xml from 'libxmljs2';
 
-import { DataModel } from '@128technology/yinz';
+import { DataModel } from '@128technology/yinz-json';
 
-const modelXml = fs.readFileSync(path.join(__dirname, './/consolidatedT128Model.xml'), 'utf8');
+const modelText = fs.readFileSync(path.join(__dirname, './/consolidatedT128Model.json'), 'utf8');
 
 const dataModel = new DataModel({
-  modelElement: xml.parseXmlString(modelXml).root()!,
-  rootPath: '//yin:container[@name="authority"]'
+  modelElement: JSON.parse(modelText),
+  getRoot: doc => doc.children!.find(x => x.name === 'config')!.children!.find(x => x.name === 'authority')!
 });
 
 export default dataModel;

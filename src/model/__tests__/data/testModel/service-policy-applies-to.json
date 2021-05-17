@@ -1,0 +1,67 @@
+{
+  "title": "Service-Policy Applies To Settings",
+  "id": "service-policy-applies-to",
+  "sections": [
+    {
+      "id": "service-policy-applies-to.settings",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.service-policy.applies-to.type",
+          "label": "Service-Policy Group Type"
+        }
+      ]
+    },
+    {
+      "id": "authority.service-policy.applies-to.router-name",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.service-policy.applies-to.router-name",
+          "label": "Router Name",
+          "columnLabels": [
+            {
+              "id": "router-name",
+              "label": "Router Name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authority.service-policy.applies-to.group-name",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.service-policy.applies-to.group-name",
+          "label": "Group Name",
+          "columnLabels": [
+            {
+              "id": "group-name",
+              "label": "Group Name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authority.service-policy.applies-to.resource-group",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.service-policy.applies-to.resource-group",
+          "label": "Resource Group",
+          "columnLabels": [
+            {
+              "id": "resource-group",
+              "label": "Resource Group Name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

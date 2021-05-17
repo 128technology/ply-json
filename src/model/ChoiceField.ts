@@ -1,4 +1,4 @@
-import { Choice, Case } from '@128technology/yinz';
+import { Choice, Case } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import { Section } from './';

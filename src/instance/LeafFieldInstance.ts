@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { Leaf, LeafInstance, Types, Path, Authorized, allow } from '@128technology/yinz';
+import { Leaf, LeafInstance, Types, Path, Authorized, allow } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import KeyUndefinedError from './errors/KeyUndefinedError';

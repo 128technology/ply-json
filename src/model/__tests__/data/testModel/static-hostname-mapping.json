@@ -1,0 +1,33 @@
+{
+  "title": "Static Hostname Mapping",
+  "id": "static-hostname-mapping",
+  "sections": [
+    {
+      "id": "static-hostname-mapping.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.static-hostname-mapping.static-entry.hostname",
+          "label": "Hostname Entry"
+        }
+      ]
+    },
+    {
+      "id": "static-hostname-mapping.ip-addresses",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.static-hostname-mapping.static-entry.ip-address",
+          "label": "IP Address List",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "IP Address"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -31,8 +31,16 @@
           "label": "Session Optimization Mode"
         },
         {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.max-way-points",
+          "label": "Maximum Way Points"
+        },
+        {
           "id": "authority.router.node.device-interface.network-interface.adjacency.generated",
           "label": "Auto-generated"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.path-metrics-rolling-avg-interval",
+          "label": "Path Metrics Rolling Average Interval"
         }
       ]
     },
@@ -63,13 +71,19 @@
       ]
     },
     {
-      "id": "adjacency.bfd",
-      "title": "BFD",
+      "id": "adjacency.settings",
+      "title": "Adjacency Settings",
+      "type": "container-list-section",
       "fields": [
         {
-          "link": "adjacency-bfd",
           "id": "authority.router.node.device-interface.network-interface.adjacency.bfd",
-          "label": "BFD Settings"
+          "label": "BFD Settings",
+          "link": "adjacency-bfd"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.step-peer-path-advertisement",
+          "label": "STEP Peer Path Advertisement Settings",
+          "link": "adjacency-step-peer-path-advertisement"
         }
       ]
     },
@@ -110,6 +124,24 @@
       ]
     },
     {
+      "id": "adjacency.nat-keep-alive",
+      "title": "NAT Keep-Alive Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.nat-keep-alive.mode",
+          "label": "NAT Keep Alive Mode"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.nat-keep-alive.tcp-inactivity-timeout",
+          "label": "TCP Inactivity Timeout"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.nat-keep-alive.udp-inactivity-timeout",
+          "label": "UDP Inactivity Timeout"
+        }
+      ]
+    },
+    {
       "id": "adjacency.source-nat",
       "title": null,
       "type": "list-table",
@@ -140,6 +172,48 @@
               "label": "Vector"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "adjacency.performance-monitoring",
+      "title": "Performance Monitoring Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.performance-monitoring.enabled",
+          "label": "Performance Monitoring Enabled"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.performance-monitoring.profile",
+          "label": "Performance Monitoring Profile"
+        }
+      ]
+    },
+    {
+      "id": "adjacency.post-encryption-padding",
+      "title": "Post Encryption Padding Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.post-encryption-padding.mode",
+          "label": "Post Encryption Padding Mode"
+        }
+      ]
+    },
+    {
+      "id": "adjacency.traffic-engineering",
+      "title": "Traffic Engineering Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.traffic-engineering.enabled",
+          "label": "Traffic Engineering Enabled"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.traffic-engineering.transmit-cap",
+          "label": "Transmission Capacity"
+        },
+        {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.traffic-engineering.traffic-profile",
+          "label": "Traffic Profile"
         }
       ]
     }
