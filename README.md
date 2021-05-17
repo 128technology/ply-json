@@ -1,6 +1,6 @@
 # PLY JSON ![Node.js CI](https://github.com/128technology/ply-json/workflows/Node.js%20CI/badge.svg)
 
-PLY (**P**resentation **L**anguage for **Y**inz) is a library to manage JSON files that model a GUI for configuring a YANG (RFC 6020) datastore. It directly integrates with the [Yinz](https://github.com/128technology/yinz) library which manages both the datamodel and instance data associated with that datamodel.
+PLY (**P**resentation **L**anguage for **Y**inz) is a library to manage JSON files that model a GUI for configuring a YANG (RFC 6020) datastore. It directly integrates with the [Yinz](https://github.com/128technology/yinz-json) library which manages both the datamodel and instance data associated with that datamodel.
 
 PLY intends to provide the following functionality:
 * Ingest a presentation model described by one or more JSON files.
