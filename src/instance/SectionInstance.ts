@@ -36,7 +36,7 @@ export default class SectionInstance implements Child, Pluggable {
 
     const fields = this.model.fields
       .filter(field => field.visibility !== 'hidden')
-      .map(field => ({ field, path: getPath(field.id, params, model) }));
+      .map(field => ({ field, path: getPath(field.id, params, model, false) }));
 
     const fieldsThatPassWhenEvaluation = [];
     for (const field of fields) {
