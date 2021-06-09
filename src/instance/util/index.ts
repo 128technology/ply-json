@@ -53,28 +53,32 @@ export function getInstanceReferences(references: string[] | undefined, suggesti
   );
 }
 
-export function getPath(id: string, params: IParams, model: DataModel): Path {
+export function getPath(id: string, params: IParams, model: DataModel, skipChoice = true): Path {
   const splitPath = id.split('.');
   const path = [];
 
   for (let i = 0, len = splitPath.length; i < len; i++) {
     const thisModel = model.getModelForPath(splitPath.slice(0, i + 1).join('.'));
     const segment = splitPath[i];
+    const shouldSkip = thisModel instanceof Choice && skipChoice;
 
-    if (thisModel instanceof List) {
-      if (params[segment]) {
-        const keyValues = params[segment].split(',');
-        const keys = Array.from(thisModel.keys).map((key, keyIdx) => ({ key, value: keyValues[keyIdx] }));
-        path.push({ name: segment, keys });
-      } else if (i === splitPath.length - 1) {
-        // Last segment doesn't need keys if targeting the whole list.
-        path.push({ name: segment });
+    if (!shouldSkip) {
+      if (thisModel instanceof List) {
+        if (params[segment]) {
+          const keyValues = params[segment].split(',');
+          const keys = Array.from(thisModel.keys).map((key, keyIdx) => ({ key, value: keyValues[keyIdx] }));
+          path.push({ name: segment, keys });
+        } else if (i === splitPath.length - 1) {
+          // Last segment doesn't need keys if targeting the whole list.
+          path.push({ name: segment });
+        } else {
+          throw new Error(`Keys not provided for ${thisModel.name}.`);
+        }
       } else {
-        throw new Error(`Keys not provided for ${thisModel.name}.`);
+        path.push({ name: segment });
       }
-    } else if (!(thisModel instanceof Choice)) {
-      path.push({ name: segment });
     }
   }
+
   return path;
 }
