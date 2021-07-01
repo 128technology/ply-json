@@ -60,7 +60,7 @@ export default class LeafListFieldInstance implements Pluggable, Child {
   public async serialize(authorized: Authorized, readOnly?: boolean): Promise<any> {
     const base = this.model.serialize();
 
-    let enumerations: IEnumeration[] = [];
+    let enumerations: IEnumeration[] | undefined;
     if (base.enumerations) {
       enumerations = _.uniq(base.enumerations.concat(getInstanceReferences(this.references, this.suggestions)));
     } else if (this.suggestions || this.references) {
