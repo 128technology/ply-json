@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import { Leaf } from '@128technology/yinz-json';
+import { Container } from '@128technology/yinz-json';
 
 import applyMixins from '../util/applyMixins';
 import { Field } from './mixins';
@@ -8,7 +8,7 @@ import { IField } from './FieldTypes';
 import { IErrorReporter, IValidateOptions } from '../validate/ErrorReporter';
 
 export default class PresenceContainerField implements Field {
-  public model: Leaf;
+  public model: Container;
 
   public id: Field['id'];
   public label: Field['label'];
