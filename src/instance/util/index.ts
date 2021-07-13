@@ -11,13 +11,22 @@ import {
   Choice
 } from '@128technology/yinz-json';
 
-import { Field, LeafField, ListField, ChoiceField, LeafListField, ContainerField } from '../../model';
+import {
+  Field,
+  LeafField,
+  ListField,
+  ChoiceField,
+  LeafListField,
+  ContainerField,
+  PresenceContainerField
+} from '../../model';
 import {
   ChoiceFieldInstance,
   ContainerFieldInstance,
   LeafFieldInstance,
   LeafListFieldInstance,
   ListFieldInstance,
+  PresenceContainerFieldInstance,
   SectionInstance
 } from '../';
 import { IParams } from '../InstanceTypes';
@@ -40,6 +49,8 @@ export async function buildField(
     return await LeafListFieldInstance.build(fieldModel, parent, instanceData as LeafListInstance, path, context);
   } else if (fieldModel instanceof ContainerField) {
     return ContainerFieldInstance.build(fieldModel, parent, instanceData as ContainerInstance, path);
+  } else if (fieldModel instanceof PresenceContainerField) {
+    return PresenceContainerFieldInstance.build(fieldModel, parent, instanceData as ContainerInstance, path);
   } else {
     throw new Error('Unrecognized field model type.');
   }

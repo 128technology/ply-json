@@ -4,6 +4,7 @@ import {
   LeafField,
   LeafListField,
   ListField,
+  PresenceContainerField,
   Page,
   PresentationModel,
   Section
@@ -25,7 +26,9 @@ import {
   PagePlugin,
   PresentationModelInstance,
   SectionInstance,
-  SectionPlugin
+  SectionPlugin,
+  PresenceContainerFieldInstance,
+  PresenceContainerPlugin
 } from './instance';
 
 import { KeyUndefinedError, ContainingListDoesNotExistError } from './instance/errors';
@@ -39,6 +42,7 @@ export {
   ChoiceFieldInstance,
   ChoicePlugin,
   ContainerField,
+  PresenceContainerField,
   ContainerFieldInstance,
   ContainerPlugin,
   ContainingListDoesNotExistError,
@@ -55,6 +59,8 @@ export {
   ListField,
   ListFieldInstance,
   ListPlugin,
+  PresenceContainerFieldInstance,
+  PresenceContainerPlugin,
   Page,
   PageInstance,
   PagePlugin,

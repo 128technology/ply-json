@@ -150,22 +150,6 @@
           "label": "Post Encryption Padding Mode"
         }
       ]
-    },
-    {
-      "id": "neighborhood.traffic-engineering",
-      "title": "Traffic Engineering Settings",
-      "fields": [
-        {
-          "id": "authority.router.node.device-interface.network-interface.neighborhood.traffic-engineering.upload",
-          "label": "Upload Traffic Engineering Settings",
-          "link": "neighborhood-upload-traffic-engineering"
-        },
-        {
-          "id": "authority.router.node.device-interface.network-interface.neighborhood.traffic-engineering.download",
-          "label": "Download Traffic Engineering Settings",
-          "link": "neighborhood-download-traffic-engineering"
-        }
-      ]
     }
   ]
 }

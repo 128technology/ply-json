@@ -68,6 +68,10 @@
           "label": "Kernel Network Interface (KNI) Namespace"
         },
         {
+          "id": "authority.router.node.device-interface.pppoe",
+          "label": "Enable PPPoE"
+        },
+        {
           "id": "authority.router.node.device-interface.pppoe.user-name",
           "label": "PPPoE User Name"
         },
@@ -80,8 +84,16 @@
           "label": "PPPoE Authentication Protocol"
         },
         {
+          "id": "authority.router.node.device-interface.lte",
+          "label": "Enable LTE"
+        },
+        {
           "id": "authority.router.node.device-interface.lte.apn-name",
           "label": "LTE APN Name"
+        },
+        {
+          "id": "authority.router.node.device-interface.lte.authentication",
+          "label": "Enable LTE Authentication"
         },
         {
           "id": "authority.router.node.device-interface.lte.authentication.user-name",
@@ -186,6 +198,10 @@
       "id": "device-interface.q-in-q",
       "title": "Q-in-Q",
       "fields": [
+        {
+          "id": "authority.router.node.device-interface.q-in-q",
+          "label": "Enable Q-in-Q Encapsulation"
+        },
         {
           "id": "authority.router.node.device-interface.q-in-q.outer-vlan",
           "label": "Q-in-Q Outer VLAN Tag"

@@ -120,6 +120,16 @@
       ]
     },
     {
+      "id": "node.ipfix",
+      "title": "IPFIX Settings",
+      "fields": [
+        {
+          "id": "authority.router.node.ipfix.enabled",
+          "label": "IPFIX Enabled"
+        }
+      ]
+    },
+    {
       "id": "router.devices",
       "title": null,
       "type": "list-section",

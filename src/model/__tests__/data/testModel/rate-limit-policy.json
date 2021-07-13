@@ -13,6 +13,16 @@
         {
           "id": "authority.router.rate-limit-policy.mode",
           "label": "Mode"
+        }
+      ]
+    },
+    {
+      "id": "rate-limit-policy.upload",
+      "title": "Upload Settings",
+      "fields": [
+        {
+          "id": "authority.router.rate-limit-policy.upload-settings",
+          "label": "Enable Upload Settings"
         },
         {
           "id": "authority.router.rate-limit-policy.upload-settings.max-rate",
@@ -21,6 +31,16 @@
         {
           "id": "authority.router.rate-limit-policy.upload-settings.max-burst",
           "label": "Maximum Upload Burst"
+        }
+      ]
+    },
+    {
+      "id": "rate-limit-policy.download",
+      "title": "Download Settings",
+      "fields": [
+        {
+          "id": "authority.router.rate-limit-policy.download-settings",
+          "label": "Enable Download Settings"
         },
         {
           "id": "authority.router.rate-limit-policy.download-settings.max-rate",

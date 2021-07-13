@@ -3,6 +3,16 @@
   "title": "Metrics",
   "sections": [
     {
+      "id": "router-system.metrics",
+      "title": "Metrics Settings",
+      "fields": [
+        {
+          "id": "authority.router.system.metrics.sample-period",
+          "label": "Metric Collection Sample Period"
+        }
+      ]
+    },
+    {
       "id": "router-metrics.profile",
       "title": null,
       "type": "list-section",

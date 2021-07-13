@@ -53,6 +53,10 @@
           "label": "To Routing Agent"
         },
         {
+          "id": "authority.router.service-route.routing-stack-vrf",
+          "label": "Routing Agent VRF"
+        },
+        {
           "id": "authority.router.service-route.bridge-name",
           "label": "To EoSVR Bridge"
         }
