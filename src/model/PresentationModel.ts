@@ -100,7 +100,7 @@ export default class PresentationModel {
     const models = Array.from(this.dataModel.modelRegistry.registry.entries());
 
     models
-      .filter(([_, model]) => !(model instanceof Container))
+      .filter(([_, model]) => !(model instanceof Container && !model.isPresenceContainer()))
       .forEach(modelEntry => {
         const [id, model] = modelEntry;
         const fieldInPresentation = this.fieldRegistry.has(id);

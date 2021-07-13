@@ -3,7 +3,8 @@ import {
   ListFieldInstance,
   LeafListFieldInstance,
   ContainerFieldInstance,
-  ChoiceFieldInstance
+  ChoiceFieldInstance,
+  PresenceContainerFieldInstance
 } from './';
 
 export type FieldInstance =
@@ -11,7 +12,8 @@ export type FieldInstance =
   | ListFieldInstance
   | LeafListFieldInstance
   | ContainerFieldInstance
-  | ChoiceFieldInstance;
+  | ChoiceFieldInstance
+  | PresenceContainerFieldInstance;
 
 export interface IParams {
   [index: string]: string;

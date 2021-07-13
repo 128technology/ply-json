@@ -41,7 +41,6 @@ export default class ContainerField implements Field {
 
   constructor(fieldDef: IContainerField, parent: Section) {
     this.addFieldProps(fieldDef, parent);
-    this.getPresentationModel().registerField(this);
 
     this.link = fieldDef.link;
     this.getPresentationModel().registerLink(fieldDef.link, this.getPage());

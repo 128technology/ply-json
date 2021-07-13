@@ -9,6 +9,7 @@ import {
   ListPlugin,
   ChoicePlugin,
   PagePlugin,
+  PresenceContainerPlugin,
   SectionPlugin
 } from './';
 import { PresentationModel } from '../model';
@@ -19,6 +20,7 @@ export default class PresentationModelInstance {
   public leafListPlugins: LeafListPlugin[] = [];
   public leafPlugins: LeafPlugin[] = [];
   public listPlugins: ListPlugin[] = [];
+  public presenceContainerPlugins: PresenceContainerPlugin[] = [];
   public pagePlugins: PagePlugin[] = [];
   public sectionPlugins: SectionPlugin[] = [];
 
@@ -54,6 +56,10 @@ export default class PresentationModelInstance {
 
   public registerChoicePlugin(plugin: ChoicePlugin) {
     this.choicePlugins.push(plugin);
+  }
+
+  public registerPresenceContainerPlugin(plugin: PresenceContainerPlugin) {
+    this.presenceContainerPlugins.push(plugin);
   }
 
   public registerPagePlugin(plugin: PagePlugin) {

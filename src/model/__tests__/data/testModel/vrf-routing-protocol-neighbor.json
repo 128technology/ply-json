@@ -73,6 +73,22 @@
         {
           "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.passive-mode",
           "label": "Enable Passive Mode"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.bgp-service-generation.peering-target",
+          "label": "BGP Service Generation"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.bgp-service-generation.same-neighbor-vrf",
+          "label": "Same Neighbor VRF"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.bgp-service-generation.neighbor-vrf",
+          "label": "Neighbor VRF"
+        },
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.bgp-service-generation.disabled",
+          "label": "Disabled"
         }
       ]
     },
@@ -80,6 +96,10 @@
       "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address",
       "title": "Local Address",
       "fields": [
+        {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address",
+          "label": "Enabled"
+        },
         {
           "id": "authority.router.routing.vrf.routing-protocol.neighbor.transport.local-address.source",
           "label": "Source"

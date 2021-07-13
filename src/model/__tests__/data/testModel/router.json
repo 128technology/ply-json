@@ -232,6 +232,11 @@
           "link": "router-bfd",
           "id": "authority.router.bfd",
           "label": "BFD Settings"
+        },
+        {
+          "link": "router-app-id",
+          "id": "authority.router.application-identification",
+          "label": "Application Identification Settings"
         }
       ]
     },
@@ -336,57 +341,50 @@
       ]
     },
     {
-      "id": "router.application-identification",
-      "title": null,
-      "type": "list-table",
+      "id": "router.dhcp-server-generated-address-pool",
+      "title": "DHCP Server Generated Address Pool",
       "fields": [
         {
-          "id": "authority.router.application-identification.mode",
-          "label": "Application Identification",
-          "columnLabels": [
-            {
-              "id": "name",
-              "label": "Application Learning Mode"
-            }
-          ]
+          "id": "authority.router.dhcp-server-generated-address-pool",
+          "label": "DHCP Server Generated Address Pool"
         }
       ]
-    }, {
-        "id": "router.dhcp-server-generated-address-pool",
-        "title": "DHCP Server Generated Address Pool",
-        "fields": [{
-            "id": "authority.router.dhcp-server-generated-address-pool",
-            "label": "DHCP Server Generated Address Pool"
+    },
+    {
+      "id": "router.dns-config",
+      "title": null,
+      "type": "list-section",
+      "fields": [
+        {
+          "link": "router-dns-config",
+          "id": "authority.router.dns-config",
+          "label": "DNS Config"
         }
       ]
-    }, {
-        "id": "router.dns-config",
-        "title": null,
-        "type": "list-section",
-        "fields": [{
-            "link": "router-dns-config",
-            "id": "authority.router.dns-config",
-            "label": "DNS Config"
-        }]
-    },{
+    },
+    {
       "id": "router.static-hostname-mapping",
       "title": null,
       "type": "list-section",
-      "fields": [{
+      "fields": [
+        {
           "link": "static-hostname-mapping",
           "id": "authority.router.static-hostname-mapping.static-entry",
           "label": "Static Hostname Mapping"
-        }]
+        }
+      ]
     },
     {
       "id": "router.rate-limit-policy",
       "title": null,
       "type": "list-section",
-      "fields": [{
+      "fields": [
+        {
           "link": "rate-limit-policy",
           "id": "authority.router.rate-limit-policy",
           "label": "Rate Limit Policy"
-        }]
+        }
+      ]
     }
   ]
 }

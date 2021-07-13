@@ -1,10 +1,10 @@
 import * as _ from 'lodash';
 import { DataModel, List, Choice, Leaf, LeafList, Container } from '@128technology/yinz-json';
 
-import { LeafField, ListField, ChoiceField, LeafListField, ContainerField, Section } from '../';
+import { LeafField, ListField, ChoiceField, LeafListField, ContainerField, Section, PresenceContainerField } from '../';
 
 export function buildField(fieldDef: any, parent: Section, dataModel: DataModel) {
-  const { id } = fieldDef;
+  const { id, link } = fieldDef;
 
   const model = dataModel.getModelForPath(id);
 
@@ -17,7 +17,11 @@ export function buildField(fieldDef: any, parent: Section, dataModel: DataModel)
   } else if (model instanceof LeafList) {
     return new LeafListField(fieldDef, parent);
   } else if (model instanceof Container) {
-    return new ContainerField(fieldDef, parent);
+    if (model.isPresenceContainer() && !link) {
+      return new PresenceContainerField(fieldDef, parent);
+    } else {
+      return new ContainerField(fieldDef, parent);
+    }
   } else {
     throw new Error(`Unrecognized field type for presentation field ${id}.`);
   }

@@ -45,16 +45,6 @@
       ]
     },
     {
-      "id": "router-system.metrics",
-      "title": "Metrics Settings",
-      "fields": [
-        {
-          "id": "authority.router.system.metrics.sample-period",
-          "label": "Metric Collection Sample Period"
-        }
-      ]
-    },
-    {
       "id": "router-system.syslog",
       "title": "Syslog Settings",
       "fields": [

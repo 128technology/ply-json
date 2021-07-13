@@ -15,6 +15,28 @@
           "label": "OSPF Router ID"
         },
         {
+          "id": "authority.router.routing.ospf.distance.intra-area",
+          "label": "Intra-area Route Distance"
+        },
+        {
+          "id": "authority.router.routing.ospf.distance.inter-area",
+          "label": "Inter-area Route Distance"
+        },
+        {
+          "id": "authority.router.routing.ospf.distance.external",
+          "label": "External Route Distance"
+        }
+      ]
+    },
+    {
+      "id": "routing-protocol-ospf.advertise-default",
+      "title": "Advertise Default Route",
+      "fields": [
+        {
+          "id": "authority.router.routing.ospf.advertise-default",
+          "label": "Enable"
+        },
+        {
           "id": "authority.router.routing.ospf.advertise-default.always",
           "label": "Always Advertise Default Route"
         },
@@ -29,18 +51,6 @@
         {
           "id": "authority.router.routing.ospf.advertise-default.metric-type",
           "label": "Default Route Metric Type"
-        },
-        {
-          "id": "authority.router.routing.ospf.distance.intra-area",
-          "label": "Intra-area Route Distance"
-        },
-        {
-          "id": "authority.router.routing.ospf.distance.inter-area",
-          "label": "Inter-area Route Distance"
-        },
-        {
-          "id": "authority.router.routing.ospf.distance.external",
-          "label": "External Route Distance"
         }
       ]
     },

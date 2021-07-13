@@ -7,6 +7,10 @@
       "title": "Basic Information",
       "fields": [
         {
+          "id": "authority.router.node.device-interface.network-interface.adjacency.bfd",
+          "label": "Enabled"
+        },
+        {
           "id": "authority.router.node.device-interface.network-interface.adjacency.bfd.state",
           "label": "State"
         },

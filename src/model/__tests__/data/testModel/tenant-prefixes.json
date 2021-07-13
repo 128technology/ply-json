@@ -1,0 +1,33 @@
+{
+  "title": "Tenant Prefixes",
+  "id": "tenant-prefixes",
+  "sections": [
+    {
+      "id": "tenant-prefixes.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.node.device-interface.network-interface.tenant-prefixes.tenant",
+          "label": "Tenant Name"
+        }
+      ]
+    },
+    {
+      "id": "tenant-prefixes.source-address",
+      "type": "list-table",
+      "title": null,
+      "fields": [
+          {
+              "id": "authority.router.node.device-interface.network-interface.tenant-prefixes.source-address",
+              "label": "Tenant Source Prefixes",
+              "columnLabels": [
+                {
+                    "id": "name",
+                    "label": "Source Prefix"
+                }
+              ]
+          }
+       ]
+    }
+  ]
+}

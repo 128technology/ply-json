@@ -25,6 +25,10 @@
       "title": "Prefix Limit Settings",
       "fields": [
         {
+          "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.prefix-limit",
+          "label": "Enable Maximum Prefix Limit"
+        },
+        {
           "id": "authority.router.routing.vrf.routing-protocol.neighbor.address-family.prefix-limit.max-prefixes",
           "label": "Maximum Number Of Prefixes"
         },

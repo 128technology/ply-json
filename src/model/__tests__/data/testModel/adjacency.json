@@ -198,24 +198,6 @@
           "label": "Post Encryption Padding Mode"
         }
       ]
-    },
-    {
-      "id": "adjacency.traffic-engineering",
-      "title": "Traffic Engineering Settings",
-      "fields": [
-        {
-          "id": "authority.router.node.device-interface.network-interface.adjacency.traffic-engineering.enabled",
-          "label": "Traffic Engineering Enabled"
-        },
-        {
-          "id": "authority.router.node.device-interface.network-interface.adjacency.traffic-engineering.transmit-cap",
-          "label": "Transmission Capacity"
-        },
-        {
-          "id": "authority.router.node.device-interface.network-interface.adjacency.traffic-engineering.traffic-profile",
-          "label": "Traffic Profile"
-        }
-      ]
     }
   ]
 }

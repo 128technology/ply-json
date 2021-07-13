@@ -1,0 +1,34 @@
+{
+  "title": "Router Application Identification",
+  "id": "router-app-id",
+  "sections": [
+    {
+      "id": "router-app-id.main",
+      "title": "Basic Information",
+      "fields": [
+        {
+          "id": "authority.router.application-identification",
+          "label": "Enabled"
+        }
+      ]
+    },
+
+    {
+      "id": "router-app-id.application-identification",
+      "title": null,
+      "type": "list-table",
+      "fields": [
+        {
+          "id": "authority.router.application-identification.mode",
+          "label": "Application Identification",
+          "columnLabels": [
+            {
+              "id": "name",
+              "label": "Application Learning Mode"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

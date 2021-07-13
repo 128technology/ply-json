@@ -5,7 +5,7 @@ import TestPresentationModel from './data/testPresentationModel';
 
 describe('Container/Link Field Model', () => {
   it('serializes a basic container/link', () => {
-    const field = TestPresentationModel.getFieldForID('authority')!;
+    const field = TestPresentationModel.getPage('edit-config-home').sections[0].fields[0]!;
 
     expect(field.serialize()).to.deep.equal({
       deprecated: false,
@@ -21,7 +21,7 @@ describe('Container/Link Field Model', () => {
   });
 
   it('resolve a container link', () => {
-    const field = TestPresentationModel.getFieldForID('authority') as ContainerField;
+    const field = TestPresentationModel.getPage('edit-config-home').sections[0].fields[0]! as ContainerField;
 
     const page = field.resolveLink();
 
