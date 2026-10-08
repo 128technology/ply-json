@@ -19,10 +19,10 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           package-manager-cache: false
           scope: '@128technology'
+      - name: Upgrade npm for OIDC
+        run: npm install -g npm@11.11.0
       - run: npm ci
       - run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN_EXP_OCT_15_2026 }}
 
       - name: Upload npm debug logs
         uses: actions/upload-artifact@v4
