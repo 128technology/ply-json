@@ -19,6 +19,7 @@ export interface IListField {
   label: string;
   customComponent?: string;
   columns?: string[];
+  columnDefaults?: { hidden?: string[]; order?: string[] };
   link: string;
 }
 

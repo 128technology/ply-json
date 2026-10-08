@@ -9,6 +9,7 @@ import { SectionType, ErrorLevel } from '../enum';
 
 export default class ListField implements Field {
   public columns?: string[];
+  public columnDefaults?: { hidden?: string[]; order?: string[] };
   public leaves: string[];
   public link: string;
   public model: List;
@@ -52,6 +53,7 @@ export default class ListField implements Field {
 
     this.link = fieldDef.link;
     this.columns = fieldDef.columns;
+    this.columnDefaults = fieldDef.columnDefaults;
     this.orderedBy = this.model.orderedBy;
     this.getPresentationModel().registerLink(fieldDef.link, this.getPage());
   }
