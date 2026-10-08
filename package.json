@@ -1,6 +1,6 @@
 {
   "name": "@128technology/ply-json",
-  "version": "2.1.1-alpha.8",
+  "version": "2.1.1-alpha.9",
   "description": "Manage model files that describe the GUI presentation of a Yinz data model.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/128technology/ply.git"
+    "url": "ssh://git@github.com:128technology/ply-json.git"
   },
   "author": "128 Technology",
   "license": "MIT",
